@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRÁTICA TABELA II</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        table, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-bottom: 50px;  
+            margin-left: auto;
+            margin-right: auto;        
+        }  
+        
+        td{
+            width: 500px;
+        }
+
+        .center{
+            text-align: center;
+        }
+
+        .right{
+            text-align: right;
+        }
+
+        .topo{
+            height: 100px;
+            text-align: center;
+        }
+        .corpo{
+            height: 500px;
+            text-align: center;
+        }
+
+        .foot{
+            height: 40px;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <header >
+        <H1>PRÁTICA TABELA II</H1>
+    </header>
+
+
+    <main>
+
+        <table>
+            <tbody>
+                <thead class="topo">
+                    <tr>
+                        <td colspan="2">TOPO</td>
+                    </tr> 
+                </thead>
+
+                <tr class="corpo">
+                    <td style="width: 30%;">Menu</td>
+                    <td style="width: 70%">Conteudo</td>
+                </tr> 
+
+                <tfoot class="foot">
+                    <tr>
+                        <td colspan="2" class="center">Rodape</td>
+                    </tr>
+                </tfoot>  
+            </tbody>               
+        </table>    
+        <footer><a class="footerlink" href="./index.html">VOLTAR INDEX</a></footer>  
+</body>
+</html>
